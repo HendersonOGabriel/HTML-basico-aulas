@@ -1,0 +1,59 @@
+html {
+    background-color: darkslateblue;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+h2, h3, h4, h5 ,h6 {
+    font-size: 30px;
+    color: cadetblue;
+}
+
+h1 {
+    color: rgba(1, 32, 91, 100);
+}
+p {
+    color: rgb(215, 91, 243);
+}
+.margin {
+    margin: 50px;
+    background-color: aqua;
+    border: solid 3px darkblue;
+}
+.padding {
+    padding: 40px;
+    background-color: aquamarine;
+    border: solid 3px darkblue;
+}
+.border {
+    background-color: lightseagreen;
+    border: solid 40px darkblue;
+    border-radius: 15px;
+}
+a {
+    padding: 20px;
+    background-color: beige;
+    border: outset 4px rgb(190, 175, 114);
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgba(47, 168, 162, 0.918);
+}
+.exercicio-img {
+    border: none 0px transparent;
+    width: 0px;
+    height: 0px;
+    padding: 0px; 
+}
+
+.paragrafo-padrao, .paragrafo-destaque {
+    padding: 20px;
+    margin: 40px;
+}
+
+.paragrafo-padrao {
+    background-color: #F5F5F5;
+}
+/* essas duas classes são de cima e de baixo são chamadas de modificadoras, pois alteram apenas uma coisa de diferente na tag */
+.paragrafo-destaque {
+    background-color: #F0CCE2;
+}
